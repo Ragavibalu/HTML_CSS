@@ -1,0 +1,184 @@
+Git:
+
+Microsoft Windows [Version 10.0.22621.2861]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Ragavi>cd html_css
+
+C:\Users\Ragavi\HTML_CSS>git add test.txt
+
+C:\Users\Ragavi\HTML_CSS>git commit
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+[master (root-commit) 6e5523d] ragavi
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HTML_CSS/test.txt
+
+C:\Users\Ragavi\HTML_CSS>git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+
+C:\Users\Ragavi\HTML_CSS>git commit
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+[master 69b3430] ragavi
+ 1 file changed, 1 insertion(+)
+ create mode 100644 HTML_CSS/sample.txt
+
+C:\Users\Ragavi\HTML_CSS>git log
+commit 69b3430bc13178bd9bb47a2c859339f664007715 (HEAD -> master)
+Author: Ragavibalu <ragavibalu66@gmail.com>
+Date:   Fri Jan 19 13:51:10 2024 +0530
+
+    ragavi
+
+commit 6e5523d7b76f6be63d4163c564233ba9b7242715
+Author: Ragavibalu <ragavibalu66@gmail.com>
+Date:   Fri Jan 19 13:32:09 2024 +0530
+
+    ragavi
+
+C:\Users\Ragavi\HTML_CSS>git branch
+* master
+
+C:\Users\Ragavi\HTML_CSS>git branch -M main
+
+C:\Users\Ragavi\HTML_CSS>git branch
+* main
+
+C:\Users\Ragavi\HTML_CSS>git remote add origin https://github.com/Ragavibalu/HTML_CSS.git
+
+C:\Users\Ragavi\HTML_CSS>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=Ragavibalu
+user.email=ragavibalu66@gmail.com
+remote.origin.url=https://github.com/Ragavibalu/HTML_CSS.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+C:\Users\Ragavi\HTML_CSS>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (8/8), 540 bytes | 108.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Ragavibalu/HTML_CSS.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Ragavi\HTML_CSS> git add test.txt
+
+C:\Users\Ragavi\HTML_CSS>git commit
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+[main c95bc03] ragavi
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Ragavi\HTML_CSS>git branch
+* main
+
+C:\Users\Ragavi\HTML_CSS>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 326 bytes | 326.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Ragavibalu/HTML_CSS.git
+   69b3430..c95bc03  main -> main
+
+C:\Users\Ragavi\HTML_CSS>git diff
+
+C:\Users\Ragavi\HTML_CSS>git add .
+
+C:\Users\Ragavi\HTML_CSS>git commit -m"Alpha"
+[main 2d0034b] Alpha
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Ragavi\HTML_CSS>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 339 bytes | 339.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Ragavibalu/HTML_CSS.git
+   c95bc03..2d0034b  main -> main
+--------------------------------------------------------------------------------------------------------
+
+HTML:
+basic skeleton/basic layout
+Types of html
+1)html
+2)html:5
+3)html:xml
